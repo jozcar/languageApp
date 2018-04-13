@@ -18,7 +18,7 @@ public class PhrasesActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.word_list);
 
-        Mapping list = TranslationFactory.Translate("Numbers");
+        Mapping list = TranslationFactory.Translate("Phrases");
         ArrayList<Word> _list = list.TranslationList();
 
         WordAdapter learn = new WordAdapter(this,_list);

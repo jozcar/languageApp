@@ -22,17 +22,17 @@ public class NumberTraslation implements Mapping {
         list.add(new Word("Seven","Siete"));
         list.add(new Word("Eight","Ocho"));
         list.add(new Word("Nine","Nueve"));
-        list.add(new Word("Ten","Dos"));
-        list.add(new Word("Eleven","Dos"));
-        list.add(new Word("Twelve","Dos"));
-        list.add(new Word("Thirteen","Dos"));
-        list.add(new Word("15","Dos"));
-        list.add(new Word("16","Dos"));
-        list.add(new Word("17","Dos"));
-        list.add(new Word("18","Dos"));
-        list.add(new Word("19","Dos"));
-        list.add(new Word("20","Dos"));
-        list.add(new Word("21","veinte uno"));
+        list.add(new Word("Ten","Diez"));
+        list.add(new Word("Eleven","Once"));
+        list.add(new Word("Twelve","Doce"));
+        list.add(new Word("Thirteen","Trece"));
+        list.add(new Word("Fourteen","Catorze"));
+        list.add(new Word("Fifteen","Quinze"));
+        list.add(new Word("Sixteen","Diese Seis"));
+        list.add(new Word("Seventeen","Diese Siete"));
+        list.add(new Word("Eighteen","Diese Ocho"));
+        list.add(new Word("Nineteen","Diese Nueve"));
+        list.add(new Word("Twenty","Veinty"));
 
         return list;
     }
