@@ -17,7 +17,7 @@ public class TranslationFactory {
             return  new ColorsTranslation();
         }else if(type.equals("Family")){
             return new FamilyTranslation();
-        }else if(type.equals("Phrase")){
+        }else if(type.equals("Phrases")){
             return  new PhrasesTranslation();
         }
 
